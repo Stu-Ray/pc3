@@ -13,6 +13,6 @@ There are 4 parts of the project:
    This is a installed version of the PGSource, just in case that some errors may occur during installing. There is also our modified `.conf` file in the "./data" directory, in which we can change the CC strategy and default isolation level of PostgreSQL. You need to restart the PG server with `pg_ctl` command every time when you change the `.conf` file.
 
 **4. YCSB**: 
-    This is a modifies version of YCSB 0.15.0. We changed the seed in JDBC codes so that every time we run YCSB, it will generate the same series of transactions (but different in executing orders). This is of convenience for us to use database logs to train the transition matrix and make accurate predictions.
+    This is a modified version of YCSB 0.15.0. We changed the seed in JDBC codes so that every time we run YCSB, it will generate the same series of transactions (but different in executing orders). This is of convenience for us to use database logs to train the transition matrix and make accurate predictions.
 
 Besides, `Experiments.xlsx` records all the original data during our experiments.
