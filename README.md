@@ -1,4 +1,4 @@
-# PC3
+# PC3: Enhancing Concurrency in High-Conflict Transactions with Prior Cascading Control (ICDM 2024)
 Here are the codes for the Prior Cascading Concurrency Control (PC3) Method in PostgreSQL.
 
 There are 4 parts of the project:
